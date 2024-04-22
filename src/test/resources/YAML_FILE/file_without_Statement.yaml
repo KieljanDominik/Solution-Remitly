@@ -1,0 +1,7 @@
+PolicyName: "ExamplePolicyName123"
+PolicyDocument:
+  Version: "2012-10-17"
+  State:
+    - Effect: "Allow"
+      Action: "s3:*"
+      Resource: "*"
